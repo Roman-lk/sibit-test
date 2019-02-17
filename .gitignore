@@ -1,0 +1,9 @@
+# IntellijIdea files
+*.iml
+.idea
+out
+classes
+build
+.gradle
+logs
+.distrib

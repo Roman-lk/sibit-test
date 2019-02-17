@@ -1,0 +1,19 @@
+
+.button {
+    -fx-focus-color: transparent;
+}
+
+.button-selected {
+    -fx-text-fill: #00af24;
+    -fx-effect: dropshadow(three-pass-box, #00af24, 10, 0, 0, 0);
+}
+
+.cabin {
+    -fx-background-color: rgba(151, 121, 89, 0.74);
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+}
+
+.cabin-stop {
+    -fx-background-color: rgba(151, 121, 89, 0.27);
+}

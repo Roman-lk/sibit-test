@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.String?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="80.0" prefWidth="40.0"
+            xmlns="http://javafx.com/javafx/8.0.171">
+    <children>
+        <GridPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                  AnchorPane.topAnchor="0.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="0.0" prefWidth="0.0"/>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="0.0" percentWidth="80.0" prefWidth="0.0"/>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="0.0" prefWidth="0.0"/>
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="10.0" percentHeight="40.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES"/>
+            </rowConstraints>
+            <children>
+                <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false"
+                        stylesheets="@css/style.css" text="↑" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                    <styleClass>
+                        <String fx:value="button"/>
+                        <String fx:value="button-up"/>
+                    </styleClass>
+                </Button>
+                <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false"
+                        stylesheets="@css/style.css" text="↓" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                    <styleClass>
+                        <String fx:value="button"/>
+                        <String fx:value="button-down"/>
+                    </styleClass>
+                </Button>
+            </children>
+        </GridPane>
+    </children>
+
+</AnchorPane>
